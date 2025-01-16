@@ -21,6 +21,7 @@ requirements:
     host:
         - r-base
         - r-cli
+        - r-seurat
         - r-seuratobject >=3.2.0
         - r-devtools
         - r-crayon
@@ -33,6 +34,7 @@ requirements:
     run:
         - r-base
         - r-cli
+        - r-seurat
         - r-seuratobject >=3.2.0
         - r-crayon
         - r-hdf5r
