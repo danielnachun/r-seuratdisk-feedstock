@@ -20,7 +20,8 @@ build:
 requirements:
     host:
         - r-base
-        - r-seurat >=3.2.0
+        - r-cli
+        - r-seuratobject >=3.2.0
         - r-devtools
         - r-crayon
         - r-hdf5r
@@ -31,7 +32,8 @@ requirements:
         - r-withr
     run:
         - r-base
-        - r-seurat >=3.2.0
+        - r-cli
+        - r-seuratobject >=3.2.0
         - r-crayon
         - r-hdf5r
         - r-matrix
@@ -39,8 +41,6 @@ requirements:
         - r-rlang
         - r-stringi
         - r-withr
-        - r-spatstat.core
-        - r-spatstat <2.0
 
 test:
     commands:
